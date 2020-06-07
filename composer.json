@@ -1,0 +1,26 @@
+{
+  "name": "akakaze/french-poker-card",
+  "description": "French Playing cards, including judgment of hands.",
+  "license": "MIT",
+  "authors": [{
+    "name": "akakaze",
+    "email": "akakazebot@gmail.com"
+  }],
+  "require": {},
+    "require-dev": {
+      "phpunit/phpunit": "^9.1"
+    },
+  "autoload": {
+    "psr-4": {
+      "Akakaze\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": { 
+      "Akakaze\\Test\\": "test/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
